@@ -1,0 +1,3 @@
+# K-Means-w-PCA-
+The dataset is pulled from Kaggle. Dataset is information of credit card applicants, including their monthly revenue, whether they got a job and loan amount, etc.
+Analyzed on applicants' data utilizing PCA to create 11 components based on the elbow plot on PCA scores for each instance, then take the results from PCA to apply K-Means clustering, creating 4 clusters on these customers who applied to credit card. Created pair plots on features to identify and remove outliers and adopted normal standardization on numeric values to get accurate results in PCA. By utilizing one-hot encoding turn the dataset into dummy variable then apply it to K-Means model and visualize the result by scatter plots.
